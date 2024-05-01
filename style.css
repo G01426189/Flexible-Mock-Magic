@@ -35,6 +35,7 @@
 .sidebar p:hover {
     background-color: white;
     color: #242457;
+    font-size: large;
 }
   
 .nav-item:hover a {
@@ -50,6 +51,11 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    
 }
 
 footer img {
@@ -58,11 +64,18 @@ footer img {
 
 .flex-main {
     background-color: #F5F5F5;
-    width: 100%;
+    width: 500%;
     padding-right: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .image-container{
+    
     height: 30vh;
     width: 20vw;
     background-color: #505FF9;
@@ -70,14 +83,20 @@ footer img {
     color: #fff;
     border: solid black 1px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-grow: 1;
+    
 }
 
 footer {
     width: 100%;
     padding: 1rem;
     background-color: #59D9A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 /* CODE YOUR FLEXBOXES HERE */
